@@ -1,0 +1,6 @@
+---
+applications:
+- name: 'shru-boot1'
+  memory: 512M
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  path: /target/lab-1-boot-solution-1.jar
